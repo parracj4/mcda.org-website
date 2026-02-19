@@ -41,7 +41,18 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Mason County Development Authority",
+    title: "Mason County Development Authority",
+    description:
+      "The best place in America for advanced manufacturing and AI infrastructure. Over $6 billion in active investment. River, rail, highway, and up to 8 gigawatts of new dedicated power.",
+    url: "https://mcwv.org",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mason County Development Authority",
+    description:
+      "The best place in America for advanced manufacturing and AI infrastructure. Over $6 billion in active investment.",
+  },
+  metadataBase: new URL("https://mcwv.org"),
 };
 
 export const viewport: Viewport = {
