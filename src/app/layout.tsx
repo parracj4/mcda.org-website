@@ -1,63 +1,65 @@
-import type { Metadata } from "next";
-import { siteConfig } from "@/data/site";
-import Header from "@/components/Header";
+import type { Metadata, Viewport } from "next";
+import { DM_Serif_Display, DM_Sans } from "next/font/google";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
+const dmSerifDisplay = DM_Serif_Display({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-serif",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-sans",
+});
+
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.name} — A Place to Grow`,
-    template: `%s | ${siteConfig.name}`,
+    default: "Mason County Development Authority",
+    template: "%s | MCDA",
   },
-  description: siteConfig.description,
+  description:
+    "The best place in America for advanced manufacturing and AI infrastructure. Over $6 billion in active investment. River, rail, highway, and up to 8 gigawatts of new dedicated power.",
   keywords: [
     "Mason County",
     "West Virginia",
     "economic development",
-    "advanced manufacturing",
+    "manufacturing",
     "AI infrastructure",
+    "data centers",
     "industrial sites",
     "Nucor",
     "Frontieras",
-    "Monarch Compute Campus",
-    "Point Pleasant",
-    "investment",
-    "workforce development",
+    "AIP Corp",
   ],
-  authors: [{ name: siteConfig.name }],
+  authors: [{ name: "Mason County Development Authority" }],
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: siteConfig.url,
-    siteName: siteConfig.name,
-    title: `${siteConfig.name} — A Place to Grow`,
-    description: siteConfig.description,
+    siteName: "Mason County Development Authority",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: `${siteConfig.name} — A Place to Grow`,
-    description: siteConfig.description,
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  metadataBase: new URL(siteConfig.url),
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#0a1628",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body>
-        <a href="#main-content" className="skip-link">
-          Skip to main content
-        </a>
-        <Header />
-        <main id="main-content">{children}</main>
+    <html lang="en" className={`${dmSerifDisplay.variable} ${dmSans.variable}`}>
+      <body className="min-h-screen antialiased bg-navy text-cream font-sans">
+        <Navigation />
+        {children}
         <Footer />
       </body>
     </html>

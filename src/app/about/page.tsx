@@ -1,146 +1,146 @@
-import type { Metadata } from "next";
 import Link from "next/link";
-import { siteConfig } from "@/data/site";
 
-export const metadata: Metadata = {
-  title: "About the Mason County Development Authority",
+export const metadata = {
+  title: "About | Mason County Development Authority",
   description:
-    "The Mason County Development Authority stimulates and promotes the expansion of business and industrial activity to advance economic development and improve the standard of living for Mason County citizens.",
+    "Learn about the Mason County Development Authority and our mission to promote economic growth in Mason County, West Virginia.",
 };
 
-export default function AboutPage() {
+const sections = [
+  {
+    title: "Board of Directors",
+    href: "/about/board",
+    description: "Meet our leadership team guiding economic development in Mason County.",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Agendas & Minutes",
+    href: "/about/agendas-minutes",
+    description: "Access meeting agendas and minutes from our board meetings.",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Contact",
+    href: "/about/contact",
+    description: "Get in touch with our team to discuss your project.",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+    ),
+  },
+];
+
+export default function About() {
   return (
-    <>
-      <section className="page-hero">
-        <div className="container">
-          <h1>About MCDA</h1>
-          <p>
-            Who we are, what we do, and how to reach us.
-          </p>
+    <main className="bg-navy">
+      {/* Hero */}
+      <section className="relative py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-cream mb-6">
+              About MCDA
+            </h1>
+            <p className="text-xl text-gold-light">
+              The Mason County Development Authority promotes economic growth, job
+              creation, and quality of life improvements in Mason County, West Virginia.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <h2 className="mb-3">Our Mission</h2>
-          <blockquote
-            style={{
-              borderLeft: "4px solid var(--color-gold)",
-              paddingLeft: "1.5rem",
-              fontStyle: "italic",
-              fontSize: "1.125rem",
-              color: "var(--color-text-secondary)",
-              margin: "0 0 2rem",
-            }}
-          >
-            To stimulate and promote the expansion of all kinds of business and
-            industrial activity which will tend to advance business and
-            industrial development and maintain the economic stability of the
-            county, provide maximum opportunities for employment, encourage
-            thrift, and improve the standard of living of the citizens of the
-            county.
-          </blockquote>
-
-          <h2 className="mb-3">What We Do</h2>
-          <p>
-            The Mason County Development Authority is a non-profit economic
-            development organization that works as an arm of state and local
-            government. We attract new business, help existing companies grow,
-            and create job opportunities.
-          </p>
-          <h3 className="mt-3 mb-2">Our Focus Areas</h3>
-          <ul className="feature-list">
-            <li>
-              <strong>Business Attraction</strong> — Recruiting new companies
-              and investments to Mason County.
-            </li>
-            <li>
-              <strong>Business Expansion</strong> — Supporting existing
-              employers in growing their operations.
-            </li>
-            <li>
-              <strong>Workforce Development</strong> — Connecting employers
-              with skilled talent through regional partnerships.
-            </li>
-            <li>
-              <strong>Infrastructure Modernization</strong> — Investing in the
-              utilities, transportation, and site infrastructure that industry
-              needs.
-            </li>
-            <li>
-              <strong>Innovation &amp; Entrepreneurship</strong> — Building
-              supply chain networks and supporting new businesses.
-            </li>
-            <li>
-              <strong>Incentive Programs</strong> — Helping businesses identify
-              and apply for state, local, and federal incentives.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="section-alt">
-        <div className="container">
-          <h2 className="mb-3">Leadership</h2>
-          <div className="card-grid">
-            <div className="card">
-              <h3>{siteConfig.director}</h3>
-              <p className="card-meta">Executive Director</p>
-              <p>
-                {siteConfig.director} leads the day-to-day operations of the
-                MCDA and serves as the primary point of contact for businesses
-                exploring Mason County.
+      {/* Mission */}
+      <section className="py-20 bg-slate">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="font-serif text-3xl text-cream mb-6">Our Mission</h2>
+            <p className="text-cream/80 text-lg mb-8">
+              The Mason County Development Authority works to attract new business and
+              industry, support existing employers, and create opportunities for
+              economic advancement in our community. We serve as the primary point of
+              contact for companies considering Mason County for expansion or relocation.
+            </p>
+            <div className="bg-navy/50 border border-gold/30 rounded-lg p-6">
+              <p className="font-serif text-2xl text-gold italic">
+                "A Place to Grow"
               </p>
-              <p className="mt-2">
-                <a href={`mailto:${siteConfig.directorEmail}`}>
-                  {siteConfig.directorEmail}
-                </a>
-                <br />
-                <a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a>
-              </p>
-            </div>
-            <div className="card">
-              <h3>{siteConfig.boardPresident}</h3>
-              <p className="card-meta">Board President</p>
-            </div>
-            <div className="card">
-              <h3>{siteConfig.boardVicePresident}</h3>
-              <p className="card-meta">Board Vice President</p>
-            </div>
-            <div className="card">
-              <h3>{siteConfig.boardTreasurer}</h3>
-              <p className="card-meta">Board Treasurer</p>
-            </div>
-            <div className="card">
-              <h3>{siteConfig.boardSecretary}</h3>
-              <p className="card-meta">Board Secretary</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <h2 className="mb-3">Quick Links</h2>
-          <div className="card-grid">
-            <Link href="/about/board" className="card" style={{ textDecoration: "none" }}>
-              <h3>Board of Directors</h3>
-              <p>18-member board serving staggered terms.</p>
-              <span className="text-accent">View board &rarr;</span>
-            </Link>
-            <Link href="/about/agendas-minutes" className="card" style={{ textDecoration: "none" }}>
-              <h3>Agendas &amp; Minutes</h3>
-              <p>Board meeting agendas and minutes.</p>
-              <span className="text-accent">View documents &rarr;</span>
-            </Link>
-            <Link href="/about/contact" className="card" style={{ textDecoration: "none" }}>
-              <h3>Contact Us</h3>
-              <p>Get in touch with the MCDA team.</p>
-              <span className="text-accent">Contact &rarr;</span>
-            </Link>
+      {/* Sections */}
+      <section className="py-20">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="grid md:grid-cols-3 gap-8">
+            {sections.map((section) => (
+              <Link
+                key={section.title}
+                href={section.href}
+                className="group bg-slate/50 border border-gold/20 rounded-lg p-8 hover:border-gold/50 transition-colors"
+              >
+                <div className="text-gold mb-4">{section.icon}</div>
+                <h2 className="font-serif text-2xl text-cream mb-3 group-hover:text-gold transition-colors">
+                  {section.title}
+                </h2>
+                <p className="text-cream/70">{section.description}</p>
+                <div className="mt-6 text-gold flex items-center gap-2">
+                  Learn more
+                  <svg
+                    className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
-    </>
+
+      {/* Contact Info */}
+      <section className="py-20 bg-slate">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="font-serif text-3xl text-cream text-center mb-12">
+              Contact Information
+            </h2>
+            <div className="grid sm:grid-cols-2 gap-8">
+              <div className="bg-navy/50 border border-gold/20 rounded-lg p-6">
+                <h3 className="font-serif text-xl text-gold mb-4">Office</h3>
+                <address className="not-italic text-cream/80 space-y-2">
+                  <p>305 Main Street</p>
+                  <p>Point Pleasant, WV 25550</p>
+                </address>
+              </div>
+              <div className="bg-navy/50 border border-gold/20 rounded-lg p-6">
+                <h3 className="font-serif text-xl text-gold mb-4">Contact</h3>
+                <div className="text-cream/80 space-y-2">
+                  <p>Phone: 304-675-1497</p>
+                  <p>Fax: 304-675-1601</p>
+                  <p>Email: info@masoncounty.org</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

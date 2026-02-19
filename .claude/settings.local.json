@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.claimsjournal.com)",
+      "WebFetch(domain:www.statsamerica.org)",
+      "WebFetch(domain:newhavenindustrialpark.com)",
+      "WebFetch(domain:www.bls.gov)",
+      "WebFetch(domain:www.ushousingdata.com)"
+    ]
+  }
+}

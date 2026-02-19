@@ -1,89 +1,105 @@
 import Link from "next/link";
-import { siteConfig } from "@/data/site";
+
+const footerLinks = [
+  {
+    title: "Business",
+    links: [
+      { label: "Major Investments", href: "/business/investments" },
+      { label: "Top Employers", href: "/business/employers" },
+      { label: "Workforce", href: "/business/workforce" },
+      { label: "Tax Incentives", href: "/business/tax-incentives" },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      { label: "Available Sites", href: "/sites" },
+      { label: "Community Data", href: "/community-data" },
+      { label: "Prospect Packet", href: "/prospect-packet" },
+      { label: "News", href: "/news" },
+    ],
+  },
+  {
+    title: "About",
+    links: [
+      { label: "Why Mason County", href: "/why-mason-county" },
+      { label: "Quality of Life", href: "/quality-of-life" },
+      { label: "Board of Directors", href: "/about/board" },
+      { label: "Contact", href: "/about/contact" },
+    ],
+  },
+];
 
 export default function Footer() {
   return (
-    <footer className="site-footer" role="contentinfo">
-      <div className="container">
-        <div className="footer-grid">
-          <div>
-            <p className="footer-heading">{siteConfig.name}</p>
-            <address style={{ fontStyle: "normal" }}>
-              {siteConfig.address.street}
-              <br />
-              {siteConfig.address.city}, {siteConfig.address.state}{" "}
-              {siteConfig.address.zip}
-              <br />
-              <br />
-              Phone:{" "}
-              <a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a>
-              <br />
-              Email:{" "}
-              <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
-            </address>
+    <footer className="bg-slate border-t border-gold/20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12 lg:py-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
+          {/* Brand */}
+          <div className="col-span-2 md:col-span-1">
+            <Link href="/" className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-gold rounded-lg flex items-center justify-center">
+                <span className="font-serif text-navy text-lg font-bold">M</span>
+              </div>
+              <div>
+                <div className="font-serif text-cream text-sm leading-tight">
+                  Mason County
+                </div>
+                <div className="text-gold text-xs">Development Authority</div>
+              </div>
+            </Link>
+            <p className="text-cream/60 text-sm mb-4">
+              A Place to Grow
+            </p>
+            <div className="text-cream/60 text-sm space-y-1">
+              <p>305 Main Street</p>
+              <p>Point Pleasant, WV 25550</p>
+              <p className="mt-2">
+                <a href="tel:304-675-1497" className="hover:text-gold transition-colors">
+                  304-675-1497
+                </a>
+              </p>
+              <p>
+                <a href="mailto:info@masoncounty.org" className="hover:text-gold transition-colors">
+                  info@masoncounty.org
+                </a>
+              </p>
+            </div>
           </div>
-          <div>
-            <p className="footer-heading">Invest</p>
-            <ul className="footer-links">
-              <li>
-                <Link href="/why-mason-county">Why Mason County</Link>
-              </li>
-              <li>
-                <Link href="/business/investments">Major Investments</Link>
-              </li>
-              <li>
-                <Link href="/sites">Available Sites</Link>
-              </li>
-              <li>
-                <Link href="/business/employers">Top Employers</Link>
-              </li>
-              <li>
-                <Link href="/business/workforce">Workforce Development</Link>
-              </li>
-              <li>
-                <Link href="/business/tax-incentives">Tax Incentives</Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p className="footer-heading">Resources</p>
-            <ul className="footer-links">
-              <li>
-                <Link href="/prospect-packet">Prospect Packet</Link>
-              </li>
-              <li>
-                <Link href="/community-data">Community Data</Link>
-              </li>
-            </ul>
-            <p className="footer-heading" style={{ marginTop: "1.5rem" }}>Discover</p>
-            <ul className="footer-links">
-              <li>
-                <Link href="/quality-of-life">Quality of Life</Link>
-              </li>
-              <li>
-                <Link href="/news">News</Link>
-              </li>
-              <li>
-                <Link href="/about">About MCDA</Link>
-              </li>
-              <li>
-                <Link href="/about/board">Board of Directors</Link>
-              </li>
-              <li>
-                <Link href="/about/contact">Contact Us</Link>
-              </li>
-            </ul>
-          </div>
+
+          {/* Links */}
+          {footerLinks.map((section) => (
+            <div key={section.title}>
+              <h3 className="font-serif text-cream text-lg mb-4">{section.title}</h3>
+              <ul className="space-y-2">
+                {section.links.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="text-cream/60 text-sm hover:text-gold transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
-        <div className="footer-bottom">
-          <p>
-            &copy; {new Date().getFullYear()} {siteConfig.name}. All rights
-            reserved.
+
+        {/* Bottom */}
+        <div className="mt-12 pt-8 border-t border-gold/10 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-cream/40 text-sm">
+            &copy; {new Date().getFullYear()} Mason County Development Authority. All rights reserved.
           </p>
-          <p>
-            {siteConfig.address.city}, {siteConfig.address.state} &mdash; A
-            Place to Grow
-          </p>
+          <div className="flex gap-6">
+            <Link href="/about" className="text-cream/40 text-sm hover:text-gold transition-colors">
+              About
+            </Link>
+            <Link href="/about/contact" className="text-cream/40 text-sm hover:text-gold transition-colors">
+              Contact
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

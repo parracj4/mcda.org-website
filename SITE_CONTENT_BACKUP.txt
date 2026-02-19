@@ -1,0 +1,833 @@
+================================================================================
+MASON COUNTY DEVELOPMENT AUTHORITY - COMPLETE SITE CONTENT BACKUP
+================================================================================
+Generated: February 2026
+Use this file to rebuild the site from scratch.
+================================================================================
+
+
+================================================================================
+ORGANIZATION INFO
+================================================================================
+
+Name: Mason County Development Authority
+Short Name: MCDA
+Tagline: A Place to Grow
+URL: https://masoncounty.org
+
+Description:
+Mason County, West Virginia. Over $6 billion in active investment from Nucor,
+Frontieras North America, and the Monarch Compute Campus. Multimodal
+transportation, abundant power, and a workforce that shows up.
+
+Address:
+305 Main Street
+Point Pleasant, WV 25550
+
+Contact:
+Phone: 304-675-1497
+Fax: 304-675-1601
+Email: info@masoncounty.org
+
+Director: Anna M. Rittenhouse
+Director Email: Anna.Rittenhouse@masoncounty.org
+
+Board of Directors:
+- President: Jim Rossi
+- Vice President: Dennis Brumfield
+- Treasurer: Mark Groves
+- Secretary: Missy Deem
+
+
+================================================================================
+NAVIGATION STRUCTURE
+================================================================================
+
+- Home (/)
+- Why Mason County (/why-mason-county)
+- Business & Industry (/business)
+  - Major Investments (/business/investments)
+  - Top Employers (/business/employers)
+  - Workforce Development (/business/workforce)
+  - Tax Incentives (/business/tax-incentives)
+- Available Sites (/sites)
+- Data & Resources (/community-data)
+  - Community Data (/community-data)
+  - Prospect Packet (/prospect-packet)
+- Quality of Life (/quality-of-life)
+- News (/news)
+- About (/about)
+  - Board of Directors (/about/board)
+  - Agendas & Minutes (/about/agendas-minutes)
+  - Contact (/about/contact)
+
+
+================================================================================
+KEY STATS (HOMEPAGE)
+================================================================================
+
+- $6B+ Active Investment
+- 5,000+ Jobs Being Created
+- 8 GW Power Capacity Planned
+- 50% of U.S. Population Within a Day's Drive
+
+
+================================================================================
+MAJOR INVESTMENTS ($6+ BILLION TOTAL)
+================================================================================
+
+--- NUCOR CORPORATION ---
+Investment: $2.7 Billion
+Jobs: 800 permanent + 1,000 construction
+Timeline: Completion end of 2026
+Headline: Largest Private Investment in West Virginia History
+
+Summary:
+Nucor picked Mason County for the biggest investment their company has ever
+made. A $2.7 billion sheet steel mill on the Ohio River. It is also the largest
+private investment in the history of West Virginia.
+
+Details:
+- Up to 3 million tons of sheet steel per year.
+- 84-inch sheet products with a 76-inch tandem cold mill and two galvanizing lines.
+- Automotive galvanizing line with full inspection capabilities, plus a construction-grade line.
+- Serves automotive, appliance, HVAC, heavy equipment, agricultural, transportation, and construction customers.
+- Ohio River location gives barge access to the Midwest and Northeast, the two largest sheet-consuming regions in the country.
+- Lower carbon footprint than the regional competitors it will replace.
+
+Impact:
+When this mill is running at capacity, Mason County will be one of the most
+important steel production centers in North America.
+
+Website: https://nucor.com/
+
+
+--- FRONTIERAS NORTH AMERICA ---
+Investment: $850 Million
+Jobs: 2,000+ construction / 200+ permanent
+Timeline: Construction 2026, operational mid-2028
+Headline: First Commercial-Scale Coal Reformation Facility in the World
+
+Summary:
+Frontieras looked at sites in Texas and Wyoming before choosing Mason County
+for their $850 million FASForm facility. It will be the first commercial-scale
+plant using their patented coal reformation technology.
+
+Details:
+- Converts coal into fuels, fertilizers, and industrial carbon products with zero waste and no emissions.
+- 183 acres of riverfront property with over a mile of Ohio River frontage for barge access.
+- Class I rail via CSX and direct proximity to Appalachian coal reserves.
+- Frontieras holds patents across five continents and nine countries, covering about 85% of global coal reserves.
+- The company cited West Virginia's infrastructure, logistics, and business-friendly policies as the deciding factors over Texas and Wyoming.
+- Processing capacity of 2.7 million tons of coal per year.
+
+Impact:
+This is an entirely new use for coal. Not power generation, not steelmaking.
+Fuels, fertilizers, and industrial carbon products from a single facility right
+here in Mason County.
+
+Website: https://www.frontieras.com/
+
+
+--- MONARCH COMPUTE CAMPUS (American Intelligence & Power Corporation) ---
+Investment: Multi-Billion Dollar
+Jobs: Significant construction and permanent positions
+Timeline: First power delivery September 2026
+Headline: 2 to 8 Gigawatt AI Data Center Power Campus
+
+Summary:
+Fidelis New Energy and 8090 Industries created American Intelligence & Power
+Corporation (AIP) with backing from LuminArx Capital Management. They are
+building the Monarch Compute Campus north of Point Pleasant to deliver 2 to 8
+gigawatts of dedicated power for AI data centers.
+
+Details:
+- Partnership with Caterpillar and Boyd CAT to deploy 2 gigawatts of natural gas power generation in the first phase.
+- Full build-out targets 8 gigawatts using natural gas.
+- Located along WV Route 62, the Ohio River, and CSX railroad tracks north of Point Pleasant.
+- Fully self-supplied, behind-the-meter power. Will NOT increase rates for existing utility customers.
+- First power delivery scheduled September 2026 through August 2027.
+- Three years of development went into site selection and planning before this location was chosen.
+
+Impact:
+When fully built out, this will be one of the largest dedicated AI power
+campuses in the country, and it is being built in Mason County.
+
+Website: https://fidelisinfra.com/
+
+
+================================================================================
+DEMOGRAPHICS & COMMUNITY DATA
+================================================================================
+
+Population: 25,214 (ACS 2023)
+Median Age: 44.2
+Median Household Income: $53,454
+Per Capita Income: $29,428
+Poverty Rate: 17.9%
+Homeownership Rate: 82.1%
+Total Housing Units: 12,179
+County Area: 445 sq mi
+Population Density: 58.1 per sq mi
+
+Racial Breakdown:
+- White (Non-Hispanic): 95.7%
+- Two or More Races: 2.3%
+- Black or African American: 1.0%
+- Hispanic/Latino: 0.6%
+- Asian: 0.4%
+
+
+================================================================================
+WORKFORCE DATA
+================================================================================
+
+Employed Population: 9,376
+Unemployment Rate: 4.3% (December 2025)
+Average Commute: 26.6 min
+
+Workers' Compensation:
+- Rate: $0.54 per $100 payroll
+- National Average: $1.03 per $100 payroll
+- Ranking: 3rd lowest in the nation
+- Savings: 47% below national average
+
+Labor Force by Radius:
+- Mason County: 15,000+
+- 30-mile radius: 75,000+
+- 50-mile radius: 150,000+
+- 60-mile radius: 200,000+
+
+Top Employment Sectors:
+- Retail Trade: 1,439 employed
+- Health Care & Social Assistance: 1,427 employed
+- Manufacturing: 1,311 employed
+
+Highest Paying Sectors:
+- Information: $65,167 avg wage
+- Utilities: $62,266 avg wage
+- Manufacturing: $61,006 avg wage
+
+
+================================================================================
+ECONOMY
+================================================================================
+
+GDP: $1.09 Billion (2024)
+Cost of Living Index: 77.9-84.2 (National = 100)
+Cost of Living Savings: 16-22% below national average
+
+Housing:
+- Median Home Value: $127,400
+- Median Market Price: $165,000
+- Property Tax Rate: 0.61-0.71%
+- Median Property Tax: $487/year
+
+Fair Market Rents:
+- Studio: $658
+- 1-Bedroom: $769
+- 2-Bedroom: $852
+- 3-Bedroom: $1,026
+- 4-Bedroom: $1,130
+
+
+================================================================================
+EDUCATION
+================================================================================
+
+Public Schools: 12
+Total Students: 3,788
+Graduation Rate: 91-94%
+High School or Higher: 87.2%
+Bachelor's or Higher: 16.3%
+
+Nearby Institutions:
+1. Marshall University - Mid-Ohio Valley Center
+   Location: Point Pleasant (in-county)
+   Programs: BSN Nursing, Social Work, Regents BA, MSN
+
+2. Mountwest Community & Technical College
+   Location: Huntington (~40 mi)
+   Programs: Associate degrees, certificates, workforce training
+
+3. BridgeValley Community & Technical College
+   Location: South Charleston (~50 mi)
+   Programs: Associate degrees, technical programs
+
+4. Marshall University (main campus)
+   Location: Huntington (~40 mi)
+   Programs: Full university programs
+
+5. WVU at Parkersburg
+   Location: Parkersburg (~60 mi)
+   Programs: Associate and bachelor's degrees
+
+
+================================================================================
+INFRASTRUCTURE & TRANSPORTATION
+================================================================================
+
+Rivers:
+- Ohio River: Forms the entire western boundary. Point Pleasant at mile marker ~265.
+- Kanawha River: Divides northern and southern county. Meets the Ohio River at Point Pleasant.
+
+Highways:
+- US Route 35: 4-lane divided highway, 34-37 miles to I-64 at Scott Depot.
+- WV Route 2: North-south along Ohio River. Connects to Huntington and Parkersburg.
+- WV Route 62: Key industrial corridor running parallel to the Ohio River.
+
+Distance to I-64: ~35 miles via US 35 (4-lane highway)
+
+Rail: CSX Class I railroad service with multiple spurs and sidings
+
+Port: Port of West Virginia - up to 1,000 acres, 8,000+ ft Ohio River frontage, rail-to-barge intermodal
+
+Airports:
+- Huntington Tri-State Airport (HTS): ~40 miles, Commercial passenger service
+- Yeager Airport, Charleston (CRW): ~44 miles, Commercial passenger service
+
+Broadband: Fiber expansion funded: $7.7M for Mason, Jackson, and Putnam counties. ~362 miles of new fiber infrastructure planned.
+
+Opportunity Zone:
+- Tract: 54053955102
+- Location: Apple Grove area
+- Designation: 2018 (Opportunity Zone 1.0)
+- Expiration: December 31, 2028
+
+
+================================================================================
+EMPLOYERS
+================================================================================
+
+LOCAL EMPLOYERS:
+- Toyota Motors (Automotive Manufacturing)
+- Constellium (Aluminum Manufacturing)
+- Rivers Health (Healthcare)
+- Mason County Board of Education (Education)
+- NGK Spark Plug (Automotive Parts Manufacturing)
+- WV Steel (Steel Manufacturing)
+- Special Metals (Specialty Metals Manufacturing)
+- Rubberlite Inc. (Rubber & Polymer Manufacturing)
+- Bob's Market & Greenhouses (Agriculture & Retail)
+- Steel Specialties LLC (Steel Fabrication)
+
+REGIONAL EMPLOYERS:
+- AEP Power (Energy & Utilities)
+- John Amos Plant (Power Generation)
+- Gavin Plant (Power Generation)
+- Kyger Creek Plant (Power Generation)
+- Alcon Laboratories (Pharmaceuticals)
+- Dow Chemical Co. (Chemical Manufacturing)
+- Chemours Belle Plant (Chemical Manufacturing)
+- Mountaineer Plant (Power Generation)
+- ICL-IP America Inc. (Chemical Manufacturing)
+- APG Polytech (Polymer Manufacturing)
+- Felman Production (Metals & Alloys)
+- R&L National Service (Logistics & Transportation)
+- Appalachian RailCar (Rail Equipment)
+- Amherst Madison Inc. (Marine Transportation)
+
+
+================================================================================
+AVAILABLE SITES
+================================================================================
+
+--- NEW HAVEN INDUSTRIAL PARK ---
+Status: Available
+Acreage: 280+ acres (4 parcels: 54, 85, 25, 95 acres)
+Location: 3567 Graham Station Road, Letart, WV 25253
+
+Features:
+- Former site of the 1,100 MW Phillip Sporn Power Plant (AEP) - brownfield redevelopment.
+- 10 warehouses, 2 offices ranging 2,000-25,000 sq ft.
+- 80,000 sq ft total enclosed warehouse and office space.
+- 23 certified available mooring cells on the Ohio River with 1 loader.
+- Private industrial site roads with gate access and guard house.
+- 975,000 qualified individuals in labor shed within 50 miles.
+
+Transportation:
+- CSX Class I railroad service with existing rail siding.
+- 4,000+ ft of rail spur and sidings.
+- Ohio River frontage with 23 certified mooring cells.
+- Gate access to WV State Route 33.
+
+Utilities:
+- Municipal water, sewer, and electricity.
+- Fiber optic connectivity.
+- Substations ranging from 138 to 765 kV transmission capacity.
+
+Target Industries:
+Value-added metals & steel, Energy, Plastics, Data processing, Transportation
+logistics, Heavy industrial, Manufacturing, Transloading operations
+
+
+--- CAMP CONLEY SITE ---
+Status: Available
+Acreage: ~87 acres
+Location: Ohio River Road, WV Route 62, Point Pleasant, WV
+
+Features:
+- Three existing buildings: 100,000 sq ft, 28,000 sq ft, and 60,000 sq ft.
+- Ohio River access.
+- Historic site - former military camp, construction began 1927.
+
+Transportation: WV Route 62 access, Ohio River frontage
+Utilities: Municipal water and sewer, Electric service available
+
+
+--- KIMES STEEL & RAIL ---
+Status: Available
+Acreage: Contact for details
+Location: Mason County, WV
+Features: Industrial site with rail access
+Transportation: Rail service available, Road access
+
+
+--- POINT PLEASANT INDUSTRIAL PARK ---
+Status: Active
+Acreage: ~1,000 acres
+Location: WV Route 62, Point Pleasant, WV 25550
+
+Features:
+- Approximately 1,000 acres of industrial land.
+- Ohio River access for barge transportation.
+- Electric service available at any level.
+- All utilities in place.
+
+Transportation:
+- CSX rail service.
+- Ohio River barge access.
+- WV Route 62.
+- Within 35 minutes of Interstate 77.
+- Within 20 minutes of Route 35.
+
+
+--- NORTH POINT PLEASANT SITE ---
+Status: Under Option
+Acreage: Contact for details
+Location: Route 62 North, Point Pleasant, WV
+
+Features:
+- Located approximately 5 miles outside Point Pleasant city limits.
+- Situated on either side of Mason County Airport.
+- Runs parallel with the Ohio River.
+
+Transportation:
+- Route 62 North.
+- Adjacent to Mason County Airport.
+- Within 35 minutes of Interstate 77.
+- Within 20 minutes of Route 35.
+
+
+--- MCDA INDUSTRIAL PARK ---
+Status: Under Option
+Acreage: 7-204 acres
+Location: 2601 Madison Avenue, Point Pleasant, WV
+Features: Flexible parcel sizes from 7 to 204 acres, Industrial and business park zoning
+Transportation: WV Route 62 access
+Utilities: Full utility infrastructure available
+
+
+--- KEVIN THOMPSON SITE ---
+Status: Under Option
+Location: Mason County, WV
+Features: Currently under option for development
+
+
+--- BARTOW JONES SITE ---
+Status: Under Option
+Location: WV Route 62, Point Pleasant, WV
+Features: Located on WV Route 62, Currently under option for development
+
+
+--- DEERFIELD SITE ---
+Status: Available
+Location: Mason County, WV
+Features: Industrial development site
+
+
+--- LANNES WILLIAMSON BUILDING ---
+Status: Available
+Location: Mason County, WV
+Features: Existing building available for industrial or commercial use
+
+
+--- FAIRGROUND ROAD BUILDING ---
+Status: Available
+Location: Wattsworth Avenue, Point Pleasant, WV
+Features: Located at WV Route 62 and Fairground Road, Existing building available
+
+
+================================================================================
+TAX INCENTIVES
+================================================================================
+
+MASON COUNTY TAX FACTS:
+- Property Tax Rate: ~0.61-0.71% of assessed value (varies by district and class)
+- Median Property Tax: $487/year
+- Assessment Ratio: 60% of fair market value
+- Opportunity Zone: Apple Grove (FIPS 54053)
+- Corporate Income Tax Rate: 6.5% (proposed reduction to 3.25%)
+- Sales Tax Rate: 6% state + 1% municipal
+
+Property Classes:
+- Class I: Intangible personal property (mostly exempt) - Lowest rate
+- Class II: Owner-occupied residential property - Base rate
+- Class III: Commercial/industrial outside municipalities - 2x Class II
+- Class IV: Commercial/industrial inside municipalities - 2x Class II + municipal levy
+
+
+--- PROPERTY TAX INCENTIVES ---
+
+1. Freeport Exemption
+   Benefit: 100% property tax exemption on goods in transit
+   Summary: Manufactured products and goods moving through West Virginia in
+   interstate commerce are fully exempt from property tax. Critical for
+   manufacturers, warehousing, and distribution.
+   Source: WV Code 11-15-9
+
+2. Five for Ten Program
+   Benefit: Property valued at 5% of cost for 10 years (95% reduction)
+   Summary: Large manufacturing facilities ($50M+ new investment, $100M+
+   existing) get property assessed at just 5% of cost for a decade.
+   Source: WV Code Article 11-6N
+
+3. Manufacturing Inventory Tax Credit
+   Benefit: Dollar-for-dollar credit against income tax for property tax paid on inventory
+   Summary: Manufacturers claim a credit against corporate net income tax equal
+   to property taxes paid on manufacturing inventory.
+   Source: WV Code Article 11-13Y
+
+
+--- CORPORATE & INCOME TAX CREDITS ---
+
+4. Manufacturing Investment Tax Credit
+   Benefit: Up to 60% offset of corporate income tax for 10 years
+   Summary: A 5% credit on qualified investment, pro-rated over 10 years, that
+   offsets up to 60% of corporate net income and severance tax. No job creation
+   required - purely investment-based.
+   Source: WV Code Article 11-13S
+
+5. Economic Opportunity Tax Credit
+   Benefit: Up to 80-100% offset of corporate income tax
+   Summary: Job creation credit: 20+ new jobs offsets 80% of income tax. Pay
+   above the statewide average wage and it jumps to 100%. Small business option:
+   $3,000/job for 5 years.
+   Source: WV Code Article 11-13Q
+
+6. Competitive Corporate Tax Rate
+   Benefit: 6.5% rate (proposed cut to 3.25%)
+   Summary: West Virginia's 6.5% corporate income tax is among the region's
+   lowest. HB 3293 proposes cutting it to 3.25%. No franchise tax, no unitary
+   combined reporting.
+
+
+--- SALES TAX EXEMPTIONS ---
+
+7. Manufacturing Sales Tax Exemption
+   Benefit: 0% sales tax on equipment, materials, and construction
+   Summary: All tangible property directly used in manufacturing is exempt from
+   the 6% state and 1% municipal sales tax - including building materials and
+   process equipment for facility construction.
+   Source: WV Code 11-15-9
+
+8. Warehouse & Distribution Exemption
+   Benefit: Full sales tax exemption for $50M+ distribution facilities
+   Summary: Warehouse and distribution operations with $50M+ investment and 300+
+   full-time jobs qualify for sales tax exemptions on all tangible personal
+   property at the facility.
+   Source: WV Code 11-15-9h
+
+
+--- DATA CENTER & TECHNOLOGY ---
+
+9. High Technology Valuation Act
+   Benefit: 5% property tax assessment + full sales tax elimination on tech purchases
+   Summary: Servers and equipment in technology businesses are assessed at 5% of
+   original cost for property tax. Sales tax is eliminated on computers, servers,
+   software, hardware, and building materials.
+   Source: WV Code Article 11-6J
+
+10. High-Tech Manufacturing Credit
+    Benefit: 100% tax offset for 20 years (transferable)
+    Summary: Manufacturers of computers, electronic components, or semiconductors
+    that create 20+ jobs can offset 100% of B&O and corporate income tax for 20
+    consecutive years. The credit is transferable.
+    Source: WV Code Article 11-13Q
+
+11. Certified Microgrid & Data Center Program (HB 2014)
+    Benefit: PSC exemption for on-site power + streamlined siting
+    Summary: Signed into law April 2025. Data centers can build dedicated on-site
+    power generation without Public Service Commission jurisdiction. This is the
+    law that makes the Monarch Compute Campus possible.
+    Highlights:
+    - 70%+ of generated electricity must serve data centers in the district
+    - Tax distribution: 50% income tax reduction fund, 30% host county, 10% all counties, 5% state grants
+    - Impact assessment and mitigation plans required
+    Source: HB 2014 Enrolled Bill Text
+
+12. Coal-Powered Data Center Incentive (SB 623)
+    Benefit: Sales tax exemption + property tax at salvage value (~5%)
+    Summary: Tax incentives for data centers committing to coal-generated
+    electricity: sales tax exemption on equipment, property tax at salvage value,
+    and a 10-year investment credit. Requires $50M+ investment and 50+ jobs.
+    Source: SB 623 Bill History
+
+
+--- WORKFORCE & JOB CREATION ---
+
+13. High Wage Growth Tax Credit
+    Benefit: Up to 10% payroll credit for high-paying jobs, 5 years
+    Summary: Create 10+ jobs paying at least 2.25x the state median salary with
+    health benefits. Credit up to 10% of payroll for 5 consecutive years. $5M
+    statewide annual cap.
+
+14. Return to West Virginia Tax Credit
+    Benefit: $25,000 personal income tax credit for returning residents
+    Summary: Former West Virginians who return after 10+ years away receive a
+    $25,000 nonrefundable personal income tax credit. Helps attract experienced
+    professionals back to the state. Expires 2030.
+
+15. Small Business Growth Act (SB 1)
+    Benefit: Tax credits for investors in certified small business growth funds
+    Summary: New 2026 program channeling private capital into WV small businesses
+    through certified growth funds. Investors receive non-refundable tax credits
+    starting in 2029.
+
+
+--- HOUSING & COMMUNITY ---
+
+16. BUILD WV Act
+    Benefit: Sales tax exemption + up to $100K/year income tax credit for 10 years
+    Summary: Developers building 6+ residential units or investing $3M+ get sales
+    tax exemptions on construction, a refundable income tax credit for 10 years,
+    and B&O tax relief. 610 units approved statewide in FY 2024-25.
+
+
+--- TOURISM & HOSPITALITY ---
+
+17. Tourism Development Act
+    Benefit: 25-35% sales tax credit over 10+ years
+    Summary: Tourism destination projects investing $1M+ that attract 25%+
+    out-of-state visitors receive a sales tax credit of 25% of project costs (35%
+    near abandoned mine land or recreation areas) over 10 years, with a 15-year
+    extension available.
+
+
+--- FINANCING & DEVELOPMENT TOOLS ---
+
+18. Tax Increment Financing (TIF)
+    Benefit: Finance projects using future tax revenue growth - no rate increases
+    Summary: Counties and municipalities capture future property and sales tax
+    revenue increases from new development to finance the project itself. No
+    increase to existing tax rates.
+
+
+--- FEDERAL PROGRAMS ---
+
+19. Federal Opportunity Zones
+    Benefit: Tax-free appreciation on 10+ year investments
+    Summary: Mason County's Apple Grove tract is a designated Opportunity Zone.
+    Capital gains invested through Qualified Opportunity Funds receive tax
+    deferral, and appreciation is tax-free after 10 years.
+
+20. New Markets Tax Credits
+    Benefit: 39% federal tax credit over 7 years (20-30% project cost reduction)
+    Summary: Equity investments through certified Community Development Entities
+    in low-income communities earn a 39% federal tax credit over 7 years. Can
+    reduce total project cost by 20-30%.
+
+21. Appalachian Regional Commission Grants
+    Benefit: Federal grants for infrastructure, site development, and workforce
+    Summary: All 55 WV counties qualify for ARC grants supporting water/wastewater,
+    broadband, site development, and workforce training. Mason County has received
+    prior ARC investment including a $5.3M EDA wastewater grant.
+
+22. EDA Public Works Grants
+    Benefit: Federal grants for infrastructure and economic development
+    Summary: The U.S. Economic Development Administration funds public works and
+    economic adjustment in distressed communities. Mason County secured a $5.3M
+    wastewater infrastructure grant.
+
+23. SBA Loan Programs
+    Benefit: 7(a), 504, and Microloan financing
+    Summary: SBA provides 7(a) loans for working capital, 504 loans for fixed
+    assets (land, buildings, equipment), and Microloans for startups. WV Small
+    Business Development Center offers free application assistance.
+
+
+================================================================================
+NEWS ARTICLES
+================================================================================
+
+--- January 31, 2026 ---
+Title: American Intelligence & Power Forms Strategic Alliance with Caterpillar
+and Boyd CAT to Deploy 2 Gigawatts of Dedicated Power for Hyperscale AI Infrastructure
+Category: In the News
+
+AIP Corp partners with Caterpillar and Boyd CAT for the Monarch Compute Campus,
+delivering 2 gigawatts of power generation for AI data centers in Mason County.
+
+The deal covers a 2 GW natural gas generator order for delivery between September
+2026 and August 2027. The full build-out targets 8 GW of power generation using
+natural gas. Located along WV Route 62, the Ohio River, and CSX railroad tracks
+north of Point Pleasant, the campus is designed as a fully self-supplied,
+behind-the-meter power platform that will not increase rates for existing utility
+customers.
+
+
+--- January 29, 2026 ---
+Title: Fidelis New Energy and 8090 Industries Launch American Intelligence &
+Power Corporation
+Category: In the News
+
+Fidelis New Energy and 8090 Industries have launched American Intelligence &
+Power Corporation (AIP), with backing from LuminArx Capital Management. AIP is
+built around the Monarch Compute Campus in Mason County, West Virginia. More than
+3 years of development went into site selection and planning.
+
+
+--- January 20, 2026 ---
+Title: Frontieras North America Closes on 183-Acre Site in West Virginia for
+$850M FASForm Facility
+Category: In the News
+
+Frontieras North America has closed on 183 riverfront acres in Mason County for
+its $850 million FASForm facility. The plant will be the first commercial-scale
+use of Frontieras' patented coal reformation technology, which converts coal into
+fuels, fertilizers, and industrial carbon products with zero waste and no emissions.
+
+The site offers more than a mile of Ohio River frontage for barge transport,
+Class I rail access via CSX, and close proximity to Appalachian coal reserves.
+The project is projected to generate more than 2,000 construction jobs and over
+200 permanent positions. Frontieras chose Mason County over competing locations
+in Texas and Wyoming.
+
+
+--- January 20, 2026 ---
+Title: Governor Morrisey Announces $850 Million Frontieras North America Investment
+Category: In the News
+
+Governor Patrick Morrisey announced that Frontieras North America has acquired
+183 acres in Mason County to construct a flagship $850 million advanced coal
+reformation facility.
+
+"We are excited to welcome Frontieras North America and its state-of-the-art
+project to Mason County," said Governor Morrisey.
+
+Matthew McKean, CEO and Co-Founder of Frontieras: "West Virginia gave us every
+reason to build here - natural resources, world-class logistics, and a government
+that understands the importance of industrial growth."
+
+
+--- October 10, 2022 ---
+Title: Mason County, West Virginia - A Secret That's Getting Harder to Keep
+Category: Feature
+
+Mason County sits at the confluence of the Ohio and Kanawha Rivers, where
+Appalachian beauty meets industrial strength. Point Pleasant, the county seat,
+has been steadily building an economic development story that is getting national
+attention. With major employers spanning automotive manufacturing, specialty
+metals, chemical production, and energy generation, Mason County offers something
+increasingly rare: a diverse industrial base with room to grow.
+
+
+--- September 20, 2022 ---
+Title: U.S. Department of Commerce Invests $5.3 Million in American Rescue Plan
+Funds for Wastewater Infrastructure
+Category: In the News
+
+The U.S. Economic Development Administration has awarded $5.3 million in American
+Rescue Plan funds to the Mason County Public Service District for critical
+wastewater infrastructure. The investment supports manufacturing growth in the
+region, with the infrastructure expected to help create 800 jobs and generate
+$2.7 billion in private investment.
+
+
+--- April 13, 2022 ---
+Title: Frontieras North America Selects West Virginia for Site of Its First
+FASForm Plant
+Category: In the News
+
+Frontieras North America has selected Mason County, West Virginia as the site for
+its inaugural FASForm plant. The facility will have processing capacity of 2.7
+million tons of coal annually. The project is projected to create approximately
+500 positions.
+
+
+--- January 12, 2022 ---
+Title: Nucor Selects West Virginia as Location for New, State-of-the-Art Sheet Mill
+Category: In the News
+
+Nucor Corporation has announced it will build its new sheet mill in Mason County,
+West Virginia, a record investment exceeding $2.7 billion. It is the largest
+private investment in West Virginia history and the biggest single investment
+Nucor has ever made.
+
+When fully operational, the new mill will employ approximately 800 full-time
+teammates, with construction creating an additional 1,000 jobs. The mill will
+have the capacity to produce up to 3 million tons of sheet steel per year.
+
+"We are thrilled to make this significant investment in West Virginia and enhance
+our presence in this important region," said Leon Topalian, President and CEO of
+Nucor Corporation.
+
+
+================================================================================
+WHY MASON COUNTY - KEY SELLING POINTS
+================================================================================
+
+STRATEGIC LOCATION:
+- Within a day's drive of 50% of the U.S. population
+- Within a day's drive of approximately 40% of the aerospace industry market
+- Three ways to move product: Highway (US 35 to I-64, 35 miles), Ohio River barge
+  (72 miles of navigable waterway), and CSX Class I rail
+- Point Pleasant sits midway between Pittsburgh and Cincinnati
+- Part of the Advantage Valley nine-county economic corridor
+
+ENERGY & POWER:
+- West Virginia ranks 5th in the nation in total energy production
+- Substations ranging from 138 to 765 kV - largest transmission capacity in the country
+- 8 gigawatts of new dedicated power generation planned (Monarch Compute Campus)
+- HB 2014 (2025) created fast-track framework for data center microgrids
+- Behind-the-meter power options - will NOT increase rates for existing customers
+
+WORKFORCE:
+- 975,000 qualified workers within a 50-mile radius
+- Mason County Career Center - nationally recognized Simulated Workplace model
+- Supported by WorkForce West Virginia and Workforce Development Region 4
+- Lowest workers' compensation rates in the nation
+- Nucor, Frontieras, and AIP Corp all cited workforce as key factor
+
+BUSINESS CLIMATE:
+- Cost of living 16-22% below national average
+- No franchise tax, no unitary combined reporting
+- Corporate income tax at 6.5% (proposed cut to 3.25%)
+- Frontieras chose Mason County over Texas and Wyoming
+- Over $6 billion in active private investment
+
+CHEMICAL & POLYMER HUB:
+- Within a day's drive of 70%+ of America's polyethylene demand
+- 77% of North American polypropylene demand within a day's drive
+- Decades of chemical and polymer production experience
+- Member of both Chemical Alliance Zone and Polymer Alliance Zone
+- Existing base: Dow Chemical, Chemours, ICL-IP America
+
+
+================================================================================
+DISTANCES FROM MASON COUNTY
+================================================================================
+
+- 60 miles north of Charleston, WV
+- 170 miles from Columbus, OH
+- 260 miles from Pittsburgh, PA
+- 330 miles from Washington, D.C.
+
+Served by U.S. Route 35, the Ohio River inland waterway system, and CSX Class I
+rail - connecting Mason County to the eastern seaboard, the Gulf Coast, and the
+industrial Midwest.
+
+
+================================================================================
+END OF BACKUP
+================================================================================
