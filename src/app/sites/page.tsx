@@ -142,6 +142,12 @@ const statusColors: Record<string, string> = {
   "Under Option": "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
 };
 
+const statusDescriptions: Record<string, string> = {
+  Available: "Open and ready for development",
+  Active: "Operating site with space remaining",
+  "Under Option": "Interest expressed, not yet finalized",
+};
+
 export default function Sites() {
   return (
     <main className="bg-navy">
@@ -164,12 +170,13 @@ export default function Sites() {
       {/* Legend */}
       <section className="py-8 bg-slate">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-4">
-            {Object.entries(statusColors).map(([status, classes]) => (
+          <div className="flex flex-wrap justify-center gap-6">
+            {Object.entries(statusDescriptions).map(([status, description]) => (
               <div key={status} className="flex items-center gap-2">
-                <span className={`px-3 py-1 rounded-full text-sm border ${classes}`}>
+                <span className={`px-3 py-1 rounded-full text-sm border ${statusColors[status]}`}>
                   {status}
                 </span>
+                <span className="text-cream/50 text-sm">{description}</span>
               </div>
             ))}
           </div>
