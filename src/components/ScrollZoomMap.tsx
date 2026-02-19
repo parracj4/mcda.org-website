@@ -381,84 +381,86 @@ export default function ScrollZoomMap() {
 
   return (
     <div ref={containerRef} className="relative h-[150vh]">
-      <canvas
-        ref={canvasRef}
-        className="fixed inset-0 w-full h-full"
-        aria-hidden="true"
-      />
+      <div className="sticky top-0 h-screen overflow-hidden">
+        <canvas
+          ref={canvasRef}
+          className="absolute inset-0 w-full h-full"
+          aria-hidden="true"
+        />
 
-      {/* Intro text - visible at start */}
-      <div
-        className="fixed inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300"
-        style={{ opacity: introOpacity }}
-      >
-        <div className="text-center px-4 max-w-4xl">
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-cream mb-6">
-            The Best Place in America
-          </h1>
-          <p className="font-sans text-lg sm:text-xl md:text-2xl text-gold-light">
-            for Advanced Manufacturing &amp; AI Infrastructure
-          </p>
-        </div>
-      </div>
-
-      {/* Mid text - West Virginia highlight */}
-      <div
-        className="fixed inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300"
-        style={{ opacity: midOpacity }}
-      >
-        <div className="text-center px-4 max-w-4xl">
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gold mb-4">
-            West Virginia
-          </h2>
-          <p className="font-sans text-lg sm:text-xl md:text-2xl text-cream/80">
-            5th in the nation for energy production
-          </p>
-        </div>
-      </div>
-
-      {/* Final text - Mason County */}
-      <div
-        className="fixed inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300"
-        style={{ opacity: finalOpacity }}
-      >
-        <div className="text-center px-4 max-w-4xl">
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gold mb-4">
-            Mason County
-          </h2>
-          <p className="font-sans text-lg sm:text-xl md:text-2xl text-cream/80 mb-8">
-            $6 billion in active investment and growing
-          </p>
-          <a
-            href="#content"
-            className="inline-block px-8 py-4 bg-gold text-navy font-sans font-semibold rounded-lg hover:bg-gold-light transition-colors pointer-events-auto"
-          >
-            Explore Our Opportunities
-          </a>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div
-        className="fixed bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gold/60 transition-opacity duration-300"
-        style={{ opacity: scrollIndicatorOpacity }}
-      >
-        <span className="text-sm font-sans uppercase tracking-widest">
-          Scroll to explore
-        </span>
-        <svg
-          className="w-6 h-6 animate-bounce"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
+        {/* Intro text - visible at start */}
+        <div
+          className="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300"
+          style={{ opacity: introOpacity }}
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M19 14l-7 7m0 0l-7-7m7 7V3"
-          />
-        </svg>
+          <div className="text-center px-4 max-w-4xl">
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-cream mb-6">
+              The Best Place in America
+            </h1>
+            <p className="font-sans text-lg sm:text-xl md:text-2xl text-gold-light">
+              for Advanced Manufacturing &amp; AI Infrastructure
+            </p>
+          </div>
+        </div>
+
+        {/* Mid text - West Virginia highlight */}
+        <div
+          className="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300"
+          style={{ opacity: midOpacity }}
+        >
+          <div className="text-center px-4 max-w-4xl">
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gold mb-4">
+              West Virginia
+            </h2>
+            <p className="font-sans text-lg sm:text-xl md:text-2xl text-cream/80">
+              5th in the nation for energy production
+            </p>
+          </div>
+        </div>
+
+        {/* Final text - Mason County */}
+        <div
+          className="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300"
+          style={{ opacity: finalOpacity }}
+        >
+          <div className="text-center px-4 max-w-4xl">
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gold mb-4">
+              Mason County
+            </h2>
+            <p className="font-sans text-lg sm:text-xl md:text-2xl text-cream/80 mb-8">
+              $6 billion in active investment and growing
+            </p>
+            <a
+              href="#content"
+              className="inline-block px-8 py-4 bg-gold text-navy font-sans font-semibold rounded-lg hover:bg-gold-light transition-colors pointer-events-auto"
+            >
+              Explore Our Opportunities
+            </a>
+          </div>
+        </div>
+
+        {/* Scroll indicator */}
+        <div
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gold/60 transition-opacity duration-300"
+          style={{ opacity: scrollIndicatorOpacity }}
+        >
+          <span className="text-sm font-sans uppercase tracking-widest">
+            Scroll to explore
+          </span>
+          <svg
+            className="w-6 h-6 animate-bounce"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 14l-7 7m0 0l-7-7m7 7V3"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   );
