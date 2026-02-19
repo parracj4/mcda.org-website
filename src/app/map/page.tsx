@@ -1,10 +1,10 @@
-import MasonCountyMap from "@/components/MasonCountyMap";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
   title: "Mason County Map | Mason County Development Authority",
   description:
-    "Interactive map of Mason County, WV showing highways, rail lines, rivers, towns, and key industrial sites.",
+    "Official WV DOT highway map of Mason County, WV showing highways, rail lines, rivers, towns, and infrastructure.",
 };
 
 export default function MapPage() {
@@ -19,21 +19,72 @@ export default function MapPage() {
             </h1>
             <p className="text-xl text-gold-light">
               Official WV DOT General Highway Map showing highways, rail lines,
-              rivers, towns, and infrastructure. Zoom and pan to explore.
+              rivers, towns, and infrastructure.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Map */}
-      <section className="py-12 bg-slate">
+      {/* Map Downloads */}
+      <section className="py-16 bg-slate">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <MasonCountyMap
-            sheets={[
-              { src: "/mason-county-map-sheet1.pdf", label: "Sheet 1 — North" },
-              { src: "/mason-county-map-sheet2.pdf", label: "Sheet 2 — South" },
-            ]}
-          />
+          <div className="max-w-3xl mx-auto">
+            <p className="text-cream/70 text-center mb-8">
+              The Mason County highway map is split into two sheets. Tap a sheet
+              to open the full-size map in your browser.
+            </p>
+            <div className="grid sm:grid-cols-2 gap-6">
+              <a
+                href="/mason-county-map-sheet1.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-navy/50 rounded-xl overflow-hidden border border-gold/20 hover:border-gold/50 transition-colors group"
+              >
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <Image
+                    src="/mason-county-map-sheet1-preview.webp"
+                    alt="Mason County highway map — Sheet 1, North"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 640px) 100vw, 384px"
+                  />
+                </div>
+                <div className="p-6 text-center">
+                  <h3 className="font-serif text-xl text-cream mb-2">
+                    Sheet 1 — North
+                  </h3>
+                  <p className="text-cream/50 text-sm">
+                    Mason, Hartford, New Haven, Point Pleasant, Henderson
+                  </p>
+                </div>
+              </a>
+
+              <a
+                href="/mason-county-map-sheet2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-navy/50 rounded-xl overflow-hidden border border-gold/20 hover:border-gold/50 transition-colors group"
+              >
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <Image
+                    src="/mason-county-map-sheet2-preview.webp"
+                    alt="Mason County highway map — Sheet 2, South"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 640px) 100vw, 384px"
+                  />
+                </div>
+                <div className="p-6 text-center">
+                  <h3 className="font-serif text-xl text-cream mb-2">
+                    Sheet 2 — South
+                  </h3>
+                  <p className="text-cream/50 text-sm">
+                    Leon, Gallipolis Ferry, Ashton, Apple Grove
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -46,7 +97,6 @@ export default function MapPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-slate/50 rounded-xl p-6 border border-gold/20">
-              <div className="text-3xl mb-3">🛣️</div>
               <h3 className="font-serif text-xl text-gold mb-2">Highway</h3>
               <p className="text-cream/70 text-sm">
                 US Route 35 (4-lane divided) connects to I-64 and I-77.
@@ -55,7 +105,6 @@ export default function MapPage() {
             </div>
 
             <div className="bg-slate/50 rounded-xl p-6 border border-gold/20">
-              <div className="text-3xl mb-3">🚂</div>
               <h3 className="font-serif text-xl text-gold mb-2">Rail</h3>
               <p className="text-cream/70 text-sm">
                 CSX Class I railroad (Ohio River Subdivision) and Kanawha River
@@ -64,7 +113,6 @@ export default function MapPage() {
             </div>
 
             <div className="bg-slate/50 rounded-xl p-6 border border-gold/20">
-              <div className="text-3xl mb-3">🚢</div>
               <h3 className="font-serif text-xl text-gold mb-2">River</h3>
               <p className="text-cream/70 text-sm">
                 Ohio River frontage the entire length of the county. Kanawha
@@ -74,7 +122,6 @@ export default function MapPage() {
             </div>
 
             <div className="bg-slate/50 rounded-xl p-6 border border-gold/20">
-              <div className="text-3xl mb-3">✈️</div>
               <h3 className="font-serif text-xl text-gold mb-2">Air</h3>
               <p className="text-cream/70 text-sm">
                 Mason County Airport (3I2) with a 4,000-ft runway. Yeager
