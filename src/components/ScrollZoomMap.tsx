@@ -446,9 +446,12 @@ export default function ScrollZoomMap() {
           style={{ opacity: finalOpacity, top: '65%' }}
         >
           <div className="text-center px-4 max-w-4xl">
-            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gold mb-4">
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gold mb-1">
               Mason County
             </h2>
+            <p className="font-serif text-lg sm:text-xl md:text-2xl text-cream/60 mb-4">
+              West Virginia
+            </p>
             <p className="font-sans text-lg sm:text-xl md:text-2xl text-cream/80 mb-8">
               $6 billion in active investment and growing
             </p>
