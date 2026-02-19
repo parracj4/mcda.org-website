@@ -15,6 +15,7 @@ const footerLinks = [
     links: [
       { label: "Available Sites", href: "/sites" },
       { label: "Community Data", href: "/community-data" },
+      { label: "County Map", href: "/map" },
       { label: "Prospect Packet", href: "/prospect-packet" },
       { label: "News", href: "/news" },
     ],
