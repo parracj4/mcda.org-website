@@ -29,8 +29,11 @@ interface GeoFeature {
   };
 }
 
-// Mason County center coordinates (Point Pleasant, WV)
+// Mason County pin coordinates (Point Pleasant, WV)
 const MASON_COUNTY_CENTER: [number, number] = [-82.14, 38.84];
+
+// Visual center of WV state (for centering the viewport)
+const WV_CENTER: [number, number] = [-80.6, 38.8];
 
 // Continental US center for initial view (shifted east to show Maine better)
 const US_CENTER: [number, number] = [-96.5, 39.5];
@@ -43,6 +46,7 @@ function easeInOutCubic(t: number): number {
 export default function ScrollZoomMap() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const textRef = useRef<HTMLDivElement>(null);
   const topoDataRef = useRef<TopoJSON | null>(null);
   const animationFrameRef = useRef<number | null>(null);
   const lastProgressRef = useRef<number>(-1);
@@ -194,19 +198,26 @@ export default function ScrollZoomMap() {
 
       // Calculate scale to fill screen with US (minimal ocean)
       const baseScale = isLandscape ? height * 2.0 : width * 1.3;
-      // Final scale shows WV state
-      const maxScale = baseScale * 3;
+      // Final zoom based on height ensures consistent vertical visible range
+      // across all screen sizes (same amount of states visible north-to-south)
+      const maxScale = height * 6;
       const scale = baseScale + (maxScale - baseScale) * easedProgress;
 
-      // Start centered on US, pan to Mason County as we zoom
-      const centerLon = US_CENTER[0] + (MASON_COUNTY_CENTER[0] - US_CENTER[0]) * easedProgress;
-      const centerLat = US_CENTER[1] + (MASON_COUNTY_CENTER[1] - US_CENTER[1]) * easedProgress;
+      // Pan to Mason County FASTER than zoom increases so WV stays visible
+      // Center reaches WV at ~50% scroll, remaining scroll just zooms in
+      const panProgress = Math.min(1, easedProgress * 2);
+      const centerLon = US_CENTER[0] + (WV_CENTER[0] - US_CENTER[0]) * panProgress;
+      const centerLat = US_CENTER[1] + (WV_CENTER[1] - US_CENTER[1]) * panProgress;
 
       // Convert TopoJSON to GeoJSON features
       const features = topoToGeo(topoData);
 
+      // Shift map upward as zoom progresses so WV sits above text
+      const mapShiftUp = height * 0.12 * easedProgress;
+
       ctx.save();
       ctx.scale(dpr, dpr);
+      ctx.translate(0, -mapShiftUp);
 
       // Draw each state (skip Alaska and Hawaii)
       for (const feature of features) {
@@ -304,6 +315,16 @@ export default function ScrollZoomMap() {
       }
 
       ctx.restore();
+
+      // Position text overlay directly below WV's southern border
+      // WV southern tip is approx lat 37.2 at lon -80.6
+      const [, wvSouthY] = projectAlbersUSA(
+        -80.6, 37.2, width, height, scale, centerLon, centerLat
+      );
+      const textTop = wvSouthY - mapShiftUp + 24;
+      if (textRef.current) {
+        textRef.current.style.top = `${Math.min(textTop, height * 0.65)}px`;
+      }
     },
     [topoToGeo, projectAlbersUSA]
   );
@@ -420,8 +441,9 @@ export default function ScrollZoomMap() {
 
         {/* Final text - Mason County */}
         <div
-          className="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300"
-          style={{ opacity: finalOpacity }}
+          ref={textRef}
+          className="absolute inset-x-0 flex flex-col items-center pointer-events-none transition-opacity duration-300"
+          style={{ opacity: finalOpacity, top: '65%' }}
         >
           <div className="text-center px-4 max-w-4xl">
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gold mb-4">
